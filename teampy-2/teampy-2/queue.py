@@ -1,7 +1,6 @@
-# CIS-22C 
 # Project 2
 # Queue
-# Python Group
+# Python
 
 class Queue:
     '''Queue implemented with Single Linked List data structure.'''
