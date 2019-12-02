@@ -1,6 +1,5 @@
 # Project 2
 # Queue
-# Python
 
 class Queue:
     '''Queue implemented with Single Linked List data structure.'''
