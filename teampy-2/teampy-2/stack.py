@@ -1,7 +1,5 @@
-# CIS-22C 
 # Project 2
 # Queue, Stack
-# Python Group
 
 class Stack:
     '''Stack implemented with a Single Linked List data structure.'''
