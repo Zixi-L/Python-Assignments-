@@ -1,5 +1,3 @@
-# De Anza College, CIS 22C, Summer 2019
-# Instructor: Kamren Eftekhari
 # Project 2: Facebook Friend Graph
 # Detail: This file will create a graph of people and friendships, and run various test searches on them
 
