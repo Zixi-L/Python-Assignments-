@@ -1,4 +1,4 @@
-# Project 2
+# Term Project
 # Queue
 
 class Queue:
