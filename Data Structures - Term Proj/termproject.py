@@ -1,7 +1,4 @@
-# De Anza College, CIS 22C, Summer 2019
-# Instructor: Kamren Eftekhari
 # Term Project: Maze
-# Team Python: Michael Fan, Cameron Gao, Afshar Kiana, Zixi Luo
 # Detail: This file will 1) Generate a maze 2) Import an existing maze 3) Attempt to solve the maze
 
 from stack import Stack
