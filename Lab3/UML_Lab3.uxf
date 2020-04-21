@@ -1,0 +1,63 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>30</x><y>69</y><w>210</w><h>190</h></coordinates><panel_attributes>Webscraper
+--
+- import:
++ BeautifulSoup
++ requests
++ urllib.request
++ re
+--
+- __init__(self):
++ read(self): html
++ scrapeGRF_CO2: (self): [[Year, C]]
++ getData(self): list
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>99</y><w>210</w><h>150</h></coordinates><panel_attributes>Graph
+--
+- import:
++ matplotlib 
++ sklearn.linear_model
++ numpy
++ Agents
+--
+- __init__(self)
++ draw_graph(self): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>319</y><w>210</w><h>140</h></coordinates><panel_attributes>Database
+--
+- import:
++ sqlite
+--
+- __init__(self):
++ create_sqlite_table(self): void
++ storeInSql(self): .db
++ getData(self): float
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>349</y><w>160</w><h>180</h></coordinates><panel_attributes>Agents
+--
++ import:
++ Webscraper
++ Queue
++ Database
++ thread
+--
+- __init__(self)
++ name_agents(self): objs
++ run(self): void
++ stop(self): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>250</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>500</y><w>140</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>120;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>460</y><w>140</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;120;80</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>430</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>240</y><w>140</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>120;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>509</y><w>210</w><h>150</h></coordinates><panel_attributes>Queue
+--
+- import:
++ requests
++ queue
+--
+- __init__(self):
++ get_column(self): float 
++ enqueue(self):
++ dequeue(self):</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>380</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>70</y><w>210</w><h>190</h></coordinates><panel_attributes>UI
+--
++ import:
+- Webscraper
+- Agents
+- Graph
+--
++ __init__(self):
++ Web_Agt(self):
++ print_graph(self): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>130</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>50;10;10;10</additional_attributes></element></diagram>
