@@ -1,2 +1,3 @@
+The project generate a random two-dimensional square maze whose sized can specified by the user, and the project will read in a maze. Finally the project will use DFS, DFS to generate the shortest solution for the the maze. 
+
 termproject.py may be directly run
-termproject-mazeGraphics.py requires numpy and matplotlib, since we aren't building a renderer from scratch
